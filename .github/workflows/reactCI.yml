@@ -28,7 +28,7 @@ jobs:
 
         # Build project
       - name: Build project
-        run: npm run build-deploy
+        run: npm run build
 
         # Deploy to render
       - name: Deploy to render
